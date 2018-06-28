@@ -14,6 +14,10 @@ public class Lizard extends Animal {
         Animal a = new Animal();
         System.out.println(a.name);
         a.talk();
+        
+        Salamander s = new Salamander();
+        System.out.println(s.name);
+        s.talk();
     }
     
 }
@@ -34,4 +38,8 @@ class FemaleLizard extends Animal {
         System.out.println("fthththththrill");
     }
 
+}
+
+class Salamander extends Animal {
+    public String color = "Red";
 }
