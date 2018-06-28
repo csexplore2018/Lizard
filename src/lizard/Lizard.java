@@ -1,21 +1,37 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package lizard;
 
-/**
- *
- * @author gc_science2
- */
-public class Lizard {
 
-    /**
-     * @param args the command line arguments
-     */
+public class Lizard extends Animal {
+    
+    private String name = "Lizard";
+    public String food = "Reptile Munchies";
+    
+    
+    
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        Animal a = new Animal();
+        System.out.println(a.name);
+        a.talk();
     }
     
+}
+
+class Animal {
+    
+    public String name = "Animal";
+    public String food = "Food";
+    
+    public void talk(){
+            System.out.println("trill");
+        }
+}
+
+class FemaleLizard extends Animal {
+
+    public void talk() {
+        System.out.println("ftrill");
+    }
+
 }
