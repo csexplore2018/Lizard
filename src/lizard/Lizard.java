@@ -31,7 +31,7 @@ class Animal {
 class FemaleLizard extends Animal {
 
     public void talk() {
-        System.out.println("ftrill");
+        System.out.println("fthththththrill");
     }
 
 }
