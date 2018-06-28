@@ -32,7 +32,7 @@ class Animal {
         }
 }
 
-class FemaleLizard extends Animal {
+class Liizard extends Animal {
 
     public void talk() {
         System.out.println("fthththththrill");
@@ -40,6 +40,7 @@ class FemaleLizard extends Animal {
 
 }
 
-class Salamander extends Animal {
+class Salamander extends Lizard{
+    public String name = "Salamander";
     public String color = "Red";
 }
